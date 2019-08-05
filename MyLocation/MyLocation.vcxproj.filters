@@ -30,25 +30,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MyLocation.cpp">
+    <ClCompile Include="src\MyLocation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="MyLocation.h">
+    <QtMoc Include="src\MyLocation.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="MyLocation.ui">
+    <QtUic Include="src\MyLocation.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="MyLocation.qrc">
+    <QtRcc Include="src\MyLocation.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
   </ItemGroup>

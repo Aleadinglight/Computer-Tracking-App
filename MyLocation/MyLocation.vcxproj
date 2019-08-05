@@ -115,17 +115,17 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="MyLocation.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\MyLocation.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="MyLocation.h" />
+    <QtMoc Include="src\MyLocation.h" />
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="MyLocation.ui" />
+    <QtUic Include="src\MyLocation.ui" />
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="MyLocation.qrc" />
+    <QtRcc Include="src\MyLocation.qrc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
