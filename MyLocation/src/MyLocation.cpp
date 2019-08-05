@@ -5,7 +5,7 @@ MyLocation::MyLocation(QWidget *parent)
 {
 	ui.setupUi(this);
 	m_button= ui.pushButton;
-	connect(m_button, SIGNAL(clicked()), this, SLOT(onConnectClicked()));
+	connect(m_button, &QPushButton::clicked, this, &MyLocation::onConnectClicked);
 }
 
 
