@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
 	QApplication a(argc, argv);
-	MyLocation w;
-	w.show();
+	MyLocation myLocation;
+	myLocation.show();
 	return a.exec();
 }
