@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>532</width>
-    <height>520</height>
+    <width>552</width>
+    <height>552</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,19 +18,25 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>327</y>
+      <y>400</y>
       <width>471</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Connect</string>
     </property>
    </widget>
-   <widget class="QLabel" name="Title">
+   <widget class="QLabel" name="label_title">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>50</x>
       <y>30</y>
       <width>141</width>
       <height>51</height>
@@ -38,6 +44,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Verdana</family>
       <pointsize>15</pointsize>
      </font>
     </property>
@@ -49,13 +56,14 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>100</y>
+      <y>120</y>
       <width>141</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Verdana</family>
       <pointsize>12</pointsize>
      </font>
     </property>
@@ -67,18 +75,39 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>140</y>
+      <y>190</y>
       <width>111</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>Verdana</family>
       <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
      <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>130</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>200</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
     </property>
    </widget>
   </widget>
@@ -87,7 +116,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>532</width>
+     <width>552</width>
      <height>26</height>
     </rect>
    </property>
