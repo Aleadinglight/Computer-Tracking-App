@@ -10,6 +10,10 @@ class MyLocation : public QMainWindow
 public:
 	MyLocation(QWidget *parent = Q_NULLPTR);
 
+private slots:
+	void onConnectClicked();
+
 private:
 	Ui::MyLocationClass ui;
+	QPushButton* m_button;
 };

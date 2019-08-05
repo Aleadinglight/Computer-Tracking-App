@@ -27,40 +27,55 @@
      <string>Connect</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="Title">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>30</y>
-      <width>81</width>
+      <width>141</width>
       <height>51</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Welcome!</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="label_username">
     <property name="geometry">
      <rect>
       <x>50</x>
       <y>100</y>
-      <width>81</width>
+      <width>141</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Username</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="label_password">
     <property name="geometry">
      <rect>
       <x>50</x>
       <y>140</y>
-      <width>71</width>
+      <width>111</width>
       <height>51</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Password</string>
@@ -98,4 +113,8 @@
   <include location="MyLocation.qrc"/>
  </resources>
  <connections/>
+ <slots>
+  <signal>signal1()</signal>
+  <slot>onConnectClicked()</slot>
+ </slots>
 </ui>
