@@ -16,4 +16,5 @@ private slots:
 private:
 	Ui::MyLocationClass ui;
 	QPushButton* m_button;
+	QLabel* m_username;
 };
