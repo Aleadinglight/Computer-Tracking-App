@@ -5,8 +5,8 @@
 TEMPLATE = app
 TARGET = MyLocation
 DESTDIR = ../bin/x64/Debug
-QT += core gui widgets
-CONFIG += debug
+QT += core gui widgets 
+CONFIG += debug console
 DEFINES += _UNICODE _ENABLE_EXTENDED_ALIGNED_STORAGE WIN64 QT_DLL QT_WIDGETS_LIB
 INCLUDEPATH += ./GeneratedFiles \
     . \
