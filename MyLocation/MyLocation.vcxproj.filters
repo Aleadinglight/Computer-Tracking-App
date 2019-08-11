@@ -48,6 +48,11 @@
     </QtUic>
   </ItemGroup>
   <ItemGroup>
+    <None Include="MyLocation.pro">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <QtRcc Include="src\MyLocation.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>

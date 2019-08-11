@@ -1,6 +1,8 @@
 #pragma once
 
 #include <QtWidgets/QMainWindow>
+#include <QLabel>
+#include <QPushButton>
 #include "ui_MyLocation.h"
 
 class MyLocation : public QMainWindow
